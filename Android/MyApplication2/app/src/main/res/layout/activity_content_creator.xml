@@ -35,6 +35,13 @@
             android:background="@android:color/holo_blue_light"
             android:src="@drawable/ic_action_new_attachment"/>
 
+        <TextView
+            android:id="@+id/attach_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_attach"
+            android:textColor="#FFFFFF"/>
+
         <ImageButton
             android:id="@+id/btn_post"
             android:layout_width="48dp"
