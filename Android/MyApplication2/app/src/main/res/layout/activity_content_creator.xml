@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.hackgt2015project.ui.ContentCreator">
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_light">
+
+        <ImageButton
+            android:id="@+id/btn_click"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/ic_action_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_record"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/btn_click"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/ic_action_video"/>
+
+        <ImageButton
+            android:id="@+id/btn_attach"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/btn_record"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/ic_action_new_attachment"/>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/ic_action_send_now"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/post_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Make a memory!"
+        android:singleLine="false"></EditText>
+
+</RelativeLayout>
