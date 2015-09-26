@@ -52,6 +52,10 @@ public class ProfileActivity extends AppCompatActivity {
                         for(String blah: images){
                             //INSERT CODE TO PULL IMAGES FROM URL ARRAYLIST
                         }
+                        ArrayList<String> texts = (ArrayList<String>) object.get("text");
+                        for(String text: texts){
+                            //INSERT CODE TO PULL TEXTS
+                        }
                     }
                 } else {
                 }
@@ -60,6 +64,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         RowItem rowItem = new RowItem("Jonathan Robins");
         memoryListContents.add(rowItem);
+        System.out.println(memoryListContents.size());
         adapter = new CustomListViewAdapter(ProfileActivity.this, R.layout.row_item, memoryListContents);
         memoryList.setAdapter(adapter);
     }
