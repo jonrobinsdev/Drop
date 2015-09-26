@@ -27,6 +27,7 @@
 		4B867F991BB6434200D4FF3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B867F981BB6434200D4FF3B /* SystemConfiguration.framework */; };
 		4B867F9B1BB6435500D4FF3B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B867F9A1BB6435500D4FF3B /* libz.tbd */; };
 		4B867F9D1BB6436800D4FF3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B867F9C1BB6436800D4FF3B /* libsqlite3.tbd */; };
+		4B867F9F1BB64E4700D4FF3B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B867F9E1BB64E4700D4FF3B /* MapKit.framework */; };
 		D56C99111BB645AC0039311D /* dropStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C99101BB645AC0039311D /* dropStory.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +65,6 @@
 		4B867F701BB6290100D4FF3B /* HackGT2015ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackGT2015ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B867F741BB6290100D4FF3B /* HackGT2015ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackGT2015ProjectUITests.m; sourceTree = "<group>"; };
 		4B867F761BB6290100D4FF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B867F821BB63C8D00D4FF3B /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
-		4B867F831BB63C8D00D4FF3B /* libParseUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseUI.a; path = "Pods/../build/Debug-iphoneos/libParseUI.a"; sourceTree = "<group>"; };
 		4B867F861BB642C300D4FF3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4B867F871BB642C300D4FF3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		4B867F8A1BB6431600D4FF3B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -78,10 +77,10 @@
 		4B867F981BB6434200D4FF3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4B867F9A1BB6435500D4FF3B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4B867F9C1BB6436800D4FF3B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4B867F9E1BB64E4700D4FF3B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D56C990F1BB645AC0039311D /* HackGT2015Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackGT2015Project-Bridging-Header.h"; sourceTree = "<group>"; };
 		D56C99101BB645AC0039311D /* dropStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dropStory.swift; sourceTree = "<group>"; };
 		D9B629C984A2D410248F48FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DCCB922CC1E5B85CAD547DC8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F5818E0470DAAB5B417629 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +96,7 @@
 				4B867F951BB6433500D4FF3B /* Security.framework in Frameworks */,
 				4B867F931BB6432F00D4FF3B /* QuartzCore.framework in Frameworks */,
 				4B867F901BB6432400D4FF3B /* CoreGraphics.framework in Frameworks */,
+				4B867F9F1BB64E4700D4FF3B /* MapKit.framework in Frameworks */,
 				4B867F911BB6432400D4FF3B /* CoreLocation.framework in Frameworks */,
 				4B867F8D1BB6431B00D4FF3B /* CFNetwork.framework in Frameworks */,
 				4B867F8B1BB6431600D4FF3B /* AudioToolbox.framework in Frameworks */,
@@ -125,6 +125,7 @@
 		23B50EA22E6CD04391C4B4DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B867F9E1BB64E4700D4FF3B /* MapKit.framework */,
 				4B867F9C1BB6436800D4FF3B /* libsqlite3.tbd */,
 				4B867F9A1BB6435500D4FF3B /* libz.tbd */,
 				4B867F981BB6434200D4FF3B /* SystemConfiguration.framework */,
@@ -135,9 +136,6 @@
 				4B867F8F1BB6432400D4FF3B /* CoreLocation.framework */,
 				4B867F8C1BB6431B00D4FF3B /* CFNetwork.framework */,
 				4B867F8A1BB6431600D4FF3B /* AudioToolbox.framework */,
-				4B867F821BB63C8D00D4FF3B /* libParse.a */,
-				4B867F831BB63C8D00D4FF3B /* libParseUI.a */,
-				DCCB922CC1E5B85CAD547DC8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,6 +286,15 @@
 				TargetAttributes = {
 					4B867F4B1BB6290100D4FF3B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EVL2DEPTTR;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4B867F641BB6290100D4FF3B = {
 						CreatedOnToolsVersion = 7.0;
@@ -512,11 +519,13 @@
 			baseConfigurationReference = F3F5818E0470DAAB5B417629 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HackGT2015Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -525,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkhaider.HackGT2015Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HackGT2015Project/HackGT2015Project-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -535,11 +545,13 @@
 			baseConfigurationReference = D9B629C984A2D410248F48FA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HackGT2015Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -548,6 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkhaider.HackGT2015Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HackGT2015Project/HackGT2015Project-Bridging-Header.h";
 			};
 			name = Release;
