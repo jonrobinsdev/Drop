@@ -1,5 +1,7 @@
 package com.hackgt2015project.ui;
 
+import android.media.Image;
+
 /**
  * Created by jonathanrobins on 9/26/15.
  */
@@ -12,6 +14,15 @@ public class RowItem {
         this.image = mainImage;
         this.text = mainText;
     }
+
+    public RowItem(int image){
+        this.image = image;
+    }
+
+    public RowItem(String mainText){
+        this.text = mainText;
+    }
+
     public int getImage() {
         return image;
     }

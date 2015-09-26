@@ -29,7 +29,7 @@ public class ProfileActivity extends AppCompatActivity {
         memoryList = (ListView)findViewById(R.id.memoryList);
 
         List<RowItem> list = new ArrayList<RowItem>();
-        RowItem rowItem = new RowItem(R.drawable.treasure_chest, "Jonathan Robins");
+        RowItem rowItem = new RowItem(R.drawable.treasure_chest);
         list.add(rowItem);
         list.add(rowItem);
         list.add(rowItem);
@@ -37,6 +37,9 @@ public class ProfileActivity extends AppCompatActivity {
         list.add(rowItem);
         list.add(rowItem);
         list.add(rowItem);
+        rowItem = new RowItem("Jonathan Robins");
+        list.add(rowItem);
+        rowItem = new RowItem(R.drawable.treasure_chest, "Jonathan Robins");
         list.add(rowItem);
 
         adapter = new CustomListViewAdapter(ProfileActivity.this, R.layout.row_item, list);
