@@ -1,13 +1,20 @@
 package com.hackgt2015project.ui;
 
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 import com.hackgt2015project.R;
 
+import java.util.List;
+
 public class ProfileActivity extends AppCompatActivity {
+
+    private Image profilePicture;
+    private ListView memoryList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
