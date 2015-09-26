@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         ParseFacebookUtils.initialize(getApplicationContext());
 
         signInButton = (Button) findViewById(R.id.signInButton);
-
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,15 +75,21 @@ public class MainActivity extends AppCompatActivity {
     public void logInWithFaceBook(){
         final List<String> permissions = new ArrayList<String>();
         permissions.add("user_friends");
+        //permissions.add("public_profile");
         ParseFacebookUtils.logInWithReadPermissionsInBackground(this, permissions, new LogInCallback() {
             @Override
             public void done(ParseUser user, ParseException err) {
+                Intent i = new Intent(getBaseContext(), ProfileActivity.class);
                 if (user == null) {
                     Log.d("MyApp", "Uh oh. The user cancelled the Facebook login.");
                 } else if (user.isNew()) {
                     Log.d("MyApp", "User signed up and logged in through Facebook!");
+                    startActivity(i);
+                    finish();
                 } else {
                     Log.d("MyApp", "User logged in through Facebook!");
+                    startActivity(i);
+                    finish();
                 }
             }
         });
