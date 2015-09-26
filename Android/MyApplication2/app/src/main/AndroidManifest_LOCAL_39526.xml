@@ -31,20 +31,6 @@
             android:name=".ui.ContentCreator"
             android:label="@string/title_activity_content_creator" >
         </activity>
-        <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
-        <activity
-            android:name=".ui.ProfileActivity"
-            android:label="@string/title_activity_profile" >
-        </activity>
     </application>
 
 </manifest>

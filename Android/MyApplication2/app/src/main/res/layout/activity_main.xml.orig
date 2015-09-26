@@ -17,6 +17,13 @@
         android:background="#33adff"
         android:textColor="#ffffff" />
 
+<<<<<<< HEAD
+    <Button android:id="@+id/placeholder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"/>
+
+=======
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,4 +34,5 @@
         android:layout_marginTop="58dp"
         android:textColor="#ffffff"
         android:textSize="50dp" />
+>>>>>>> jonathans-2nd-branch
 </RelativeLayout>

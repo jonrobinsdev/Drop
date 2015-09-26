@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackgt2015project.ui.ProfileActivity"
+    android:background="#59bdff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FirstName LastName"
+        android:id="@+id/nameLabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textIsSelectable="true"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:id="@+id/profileImage"
+        android:layout_below="@+id/nameLabel"
+        android:layout_centerHorizontal="true"
+        android:background="#fff443"
+        android:layout_marginTop="20dp"/>
+
+    <View android:id="@+id/dividor"
+        android:layout_height="2dp"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:layout_below="@+id/profileImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <ListView
+        android:id="@+id/memoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dividor"
+        android:layout_centerHorizontal="true"
+        android:background="#4055ff"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+    </ListView>
+
+
+</RelativeLayout>

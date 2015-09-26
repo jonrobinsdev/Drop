@@ -3,7 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
+    <string name="title_activity_creator">CreatorActivity</string>
+    <string name="title_activity_content_creator">ContentCreator</string>
+=======
     <string name="facebook_app_id">140340286316230</string>
     <string name="title_activity_profile">ProfileActivity</string>
 
+>>>>>>> jonathans-2nd-branch
 </resources>

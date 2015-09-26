@@ -29,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
+
+        Button placeholder = (Button) findViewById(R.id.placeholder);
+		placeholder.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, CreatorActivity.class);
+				startActivity(intent);
+			}
+		});
+=======
         getSupportActionBar().hide();
 
         FacebookSdk.sdkInitialize(getApplicationContext());
@@ -48,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         ParseFacebookUtils.onActivityResult(requestCode, resultCode, data);
+>>>>>>> jonathans-2nd-branch
     }
 
     @Override
