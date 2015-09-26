@@ -20,7 +20,6 @@ import java.util.List;
 public class CustomListViewAdapter extends ArrayAdapter<RowItem> {
 
     Context context;
-    int[] selectedRowsItems;
 
     public CustomListViewAdapter(Context context, int resourceId,
                                  List<RowItem> items) {
@@ -50,7 +49,7 @@ public class CustomListViewAdapter extends ArrayAdapter<RowItem> {
             holder = (ViewHolder) convertView.getTag();
 
         holder.txtDesc.setText(rowItem.getText());
-        holder.imageView.setImageResource(rowItem.getImage());
+        holder.imageView.setImageBitmap(rowItem.getImage());
         return convertView;
     }
 }
