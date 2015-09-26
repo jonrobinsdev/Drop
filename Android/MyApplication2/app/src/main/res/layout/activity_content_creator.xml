@@ -48,8 +48,9 @@
     <EditText
         android:id="@+id/post_text"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/footer"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Make a memory!"
         android:singleLine="false"></EditText>
 
 </RelativeLayout>
