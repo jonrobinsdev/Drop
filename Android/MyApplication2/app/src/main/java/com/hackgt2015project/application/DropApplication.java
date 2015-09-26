@@ -20,8 +20,8 @@ public class DropApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-		FacebookSdk.sdkInitialize(getApplicationContext());
-		Parse.initialize(this, "WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq", "8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN");
-		ParseFacebookUtils.initialize(getApplicationContext());
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        Parse.initialize(this, "WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq", "8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN");
+        ParseFacebookUtils.initialize(getApplicationContext());
     }
 }
