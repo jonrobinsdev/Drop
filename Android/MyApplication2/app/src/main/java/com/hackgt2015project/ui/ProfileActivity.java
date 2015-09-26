@@ -29,7 +29,7 @@ public class ProfileActivity extends AppCompatActivity {
         memoryList = (ListView)findViewById(R.id.memoryList);
 
         List<RowItem> list = new ArrayList<RowItem>();
-        RowItem rowItem = new RowItem(R.drawable.icon, "Jonathan Robins");
+        //RowItem rowItem = new RowItem(R.drawable.icon, "Jonathan Robins");
 
         adapter = new CustomListViewAdapter(ProfileActivity.this, R.layout.row_item, list);
         adapter.selectedRowsItems = new int[list.size()];
