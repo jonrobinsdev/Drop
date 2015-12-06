@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         FacebookSdk.sdkInitialize(getApplicationContext());
-        Parse.initialize(this, "WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq", "8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN");
+        Parse.initialize(this, "*******************************", "*********************************");
         ParseFacebookUtils.initialize(getApplicationContext());
 
         signInButton = (Button) findViewById(R.id.signInButton);
